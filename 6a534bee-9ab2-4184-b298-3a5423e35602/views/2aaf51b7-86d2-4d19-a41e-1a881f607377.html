@@ -1,0 +1,313 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Schedule</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Schedule</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/2aaf51b7-86d2-4d19-a41e-1a881f607377.png" alt="Schedule" usemap="#2aaf51b7-86d2-4d19-a41e-1a881f607377map"/>
+			   <map name="2aaf51b7-86d2-4d19-a41e-1a881f607377map">
+				  		<area shape="rect" coords="20,20,260,130" href="../views/3fcbc097-5e3b-4378-800f-3126de577629.html"  target="view">
+				      <!-- Other diagram objects -->
+				  		<area shape="rect" coords="862,188,1102,298" href="../elements/8e952b55-3014-466a-b515-f7fcd44094b9.html"  target="element">
+				  		<area shape="rect" coords="862,1004,1102,1114" href="../elements/43963a7a-f6af-4ed1-88a8-7550952a4147.html"  target="element">
+				  		<area shape="rect" coords="1654,1004,1894,1114" href="../elements/7855e97c-e924-46ea-a8e4-4304cdb0f572.html"  target="element">
+				  		<area shape="rect" coords="1654,788,1894,898" href="../elements/b868c36e-38aa-457b-b918-095877f140f1.html"  target="element">
+				  		<area shape="rect" coords="22,1004,262,1114" href="../elements/970dcc07-78da-4c97-8e30-dcfba02db38a.html"  target="element">
+				  		<area shape="rect" coords="22,788,262,898" href="../elements/9f4ee4f0-7820-4471-bdac-603efcdf8f03.html"  target="element">
+				  		<area shape="rect" coords="1246,1004,1486,1114" href="../elements/b75c93ed-dddd-492b-a861-ed52ab1d93d1.html"  target="element">
+				  		<area shape="rect" coords="430,1004,670,1114" href="../elements/654a3389-fd08-4279-8463-1cf6767bc04b.html"  target="element">
+				  		<area shape="rect" coords="1246,188,1486,298" href="../elements/eadb1436-ed13-47af-ac75-95f1242089e4.html"  target="element">
+				  		<area shape="rect" coords="430,188,670,298" href="../elements/8f40e5c6-48c2-4cf5-9ec9-5fb55b7b148a.html"  target="element">
+				  		<area shape="rect" coords="1654,620,1894,730" href="../elements/6c748886-efcb-402a-96ac-e12eda9a4c32.html"  target="element">
+				  		<area shape="rect" coords="1654,428,1894,538" href="../elements/16c9a2f8-4a6a-4f4e-93a4-34f59fd7f7e0.html"  target="element">
+				  		<area shape="rect" coords="1654,188,1894,298" href="../elements/b8b1490c-8de0-4787-a6a4-a0a4dfcb8edb.html"  target="element">
+				  		<area shape="rect" coords="22,620,262,730" href="../elements/db9070d2-d5a6-4a7e-96a2-e547adc3564e.html"  target="element">
+				  		<area shape="rect" coords="22,428,262,538" href="../elements/d6ace3eb-c3e9-440f-9645-b0dc66ecd273.html"  target="element">
+				  		<area shape="rect" coords="22,188,262,298" href="../elements/6b0786be-4bb3-44c9-99fb-cf3395ca4cd4.html"  target="element">
+				  		<area shape="rect" coords="862,620,1102,730" href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+											    <td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/6b0786be-4bb3-44c9-99fb-cf3395ca4cd4.html" target="element"> Course Section Attributes (SSRATTR) </a> </td>
+											    <td> <a href="../elements/6b0786be-4bb3-44c9-99fb-cf3395ca4cd4.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/d6ace3eb-c3e9-440f-9645-b0dc66ecd273.html" target="element"> Course Section Corequisites (SSRCORQ) </a> </td>
+											    <td> <a href="../elements/d6ace3eb-c3e9-440f-9645-b0dc66ecd273.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/db9070d2-d5a6-4a7e-96a2-e547adc3564e.html" target="element"> Course Section Fees (SSRFEES) </a> </td>
+											    <td> <a href="../elements/db9070d2-d5a6-4a7e-96a2-e547adc3564e.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b8b1490c-8de0-4787-a6a4-a0a4dfcb8edb.html" target="element"> Course Section Meeting Times (SSRMEET) </a> </td>
+											    <td> <a href="../elements/b8b1490c-8de0-4787-a6a4-a0a4dfcb8edb.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/16c9a2f8-4a6a-4f4e-93a4-34f59fd7f7e0.html" target="element"> Course Section Class Restrictions (SSRRCLS) </a> </td>
+											    <td> <a href="../elements/16c9a2f8-4a6a-4f4e-93a4-34f59fd7f7e0.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/6c748886-efcb-402a-96ac-e12eda9a4c32.html" target="element"> Course Section Campus Restrictions (SSRRCMP) </a> </td>
+											    <td> <a href="../elements/6c748886-efcb-402a-96ac-e12eda9a4c32.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/8f40e5c6-48c2-4cf5-9ec9-5fb55b7b148a.html" target="element"> Course Section College Restrictions (SSRRCOL) </a> </td>
+											    <td> <a href="../elements/8f40e5c6-48c2-4cf5-9ec9-5fb55b7b148a.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/eadb1436-ed13-47af-ac75-95f1242089e4.html" target="element"> Course Section Degree Restrictions (SSRRDEG) </a> </td>
+											    <td> <a href="../elements/eadb1436-ed13-47af-ac75-95f1242089e4.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/654a3389-fd08-4279-8463-1cf6767bc04b.html" target="element"> Course Section Reserved Seats (SSRRESV) </a> </td>
+											    <td> <a href="../elements/654a3389-fd08-4279-8463-1cf6767bc04b.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b75c93ed-dddd-492b-a861-ed52ab1d93d1.html" target="element"> Course Section Level Restrictions (SSRRLVL) </a> </td>
+											    <td> <a href="../elements/b75c93ed-dddd-492b-a861-ed52ab1d93d1.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/9f4ee4f0-7820-4471-bdac-603efcdf8f03.html" target="element"> Course Section Major Restrictions (SSRRMJR) </a> </td>
+											    <td> <a href="../elements/9f4ee4f0-7820-4471-bdac-603efcdf8f03.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/970dcc07-78da-4c97-8e30-dcfba02db38a.html" target="element"> Course Section Program Restrictions (SSRRPRG) </a> </td>
+											    <td> <a href="../elements/970dcc07-78da-4c97-8e30-dcfba02db38a.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b868c36e-38aa-457b-b918-095877f140f1.html" target="element"> Course Section Registrations Statuses (SSRRSTS) </a> </td>
+											    <td> <a href="../elements/b868c36e-38aa-457b-b918-095877f140f1.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/7855e97c-e924-46ea-a8e4-4304cdb0f572.html" target="element"> Course Section Prerequisitons (SSRRTST) </a> </td>
+											    <td> <a href="../elements/7855e97c-e924-46ea-a8e4-4304cdb0f572.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/43963a7a-f6af-4ed1-88a8-7550952a4147.html" target="element"> Course Section Syllabus Long Name (SSRCYLN) </a> </td>
+											    <td> <a href="../elements/43963a7a-f6af-4ed1-88a8-7550952a4147.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/8e952b55-3014-466a-b515-f7fcd44094b9.html" target="element"> Course Section Text (SSRTEXT) </a> </td>
+											    <td> <a href="../elements/8e952b55-3014-466a-b515-f7fcd44094b9.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../views/3fcbc097-5e3b-4378-800f-3126de577629.html" target="view"> Data Models Map View </a> </td>
+											    <td> <a href="../views/3fcbc097-5e3b-4378-800f-3126de577629.html" target="view" class="i18n-viewpoint-"> </a> </td>
+											</tr>
+									    <!-- Other graphical objects -->
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/3b68eae6-626d-4251-aaae-c46014f08849.html" target="element">  </a> </td>
+																		<td> <a href="../elements/3b68eae6-626d-4251-aaae-c46014f08849.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/8f40e5c6-48c2-4cf5-9ec9-5fb55b7b148a.html" target="element"> Course Section College Restrictions (SSRRCOL) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/172c6995-47ad-42a7-a307-38ee2e9a79a5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/172c6995-47ad-42a7-a307-38ee2e9a79a5.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/8e952b55-3014-466a-b515-f7fcd44094b9.html" target="element"> Course Section Text (SSRTEXT) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/3d3ca70c-8baf-446e-aa33-74a1af028932.html" target="element">  </a> </td>
+																		<td> <a href="../elements/3d3ca70c-8baf-446e-aa33-74a1af028932.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/eadb1436-ed13-47af-ac75-95f1242089e4.html" target="element"> Course Section Degree Restrictions (SSRRDEG) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/32ac941f-5012-4081-894d-2965fa0164ef.html" target="element">  </a> </td>
+																		<td> <a href="../elements/32ac941f-5012-4081-894d-2965fa0164ef.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/b8b1490c-8de0-4787-a6a4-a0a4dfcb8edb.html" target="element"> Course Section Meeting Times (SSRMEET) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/7f5c2443-d04c-439b-a1e5-e09c798aa2c1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7f5c2443-d04c-439b-a1e5-e09c798aa2c1.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/16c9a2f8-4a6a-4f4e-93a4-34f59fd7f7e0.html" target="element"> Course Section Class Restrictions (SSRRCLS) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/33c9b79e-a0ab-4285-8801-1ed87fb99213.html" target="element">  </a> </td>
+																		<td> <a href="../elements/33c9b79e-a0ab-4285-8801-1ed87fb99213.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/6c748886-efcb-402a-96ac-e12eda9a4c32.html" target="element"> Course Section Campus Restrictions (SSRRCMP) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/3ae0a42b-7697-4abc-8d27-ecaaaa253be0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/3ae0a42b-7697-4abc-8d27-ecaaaa253be0.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/6b0786be-4bb3-44c9-99fb-cf3395ca4cd4.html" target="element"> Course Section Attributes (SSRATTR) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/72ebb884-9764-41a5-b5e0-d9b6af8e18ca.html" target="element">  </a> </td>
+																		<td> <a href="../elements/72ebb884-9764-41a5-b5e0-d9b6af8e18ca.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/d6ace3eb-c3e9-440f-9645-b0dc66ecd273.html" target="element"> Course Section Corequisites (SSRCORQ) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/095a5ee1-e8d6-45ea-9d28-170926b47c09.html" target="element">  </a> </td>
+																		<td> <a href="../elements/095a5ee1-e8d6-45ea-9d28-170926b47c09.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/db9070d2-d5a6-4a7e-96a2-e547adc3564e.html" target="element"> Course Section Fees (SSRFEES) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/f7b8df2d-bb25-42a8-bfae-6afb110d9d51.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f7b8df2d-bb25-42a8-bfae-6afb110d9d51.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/9f4ee4f0-7820-4471-bdac-603efcdf8f03.html" target="element"> Course Section Major Restrictions (SSRRMJR) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/8a5695b1-b358-43e8-b238-ee73fb826ec6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/8a5695b1-b358-43e8-b238-ee73fb826ec6.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/970dcc07-78da-4c97-8e30-dcfba02db38a.html" target="element"> Course Section Program Restrictions (SSRRPRG) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/ffd6771c-1657-4aea-8bb4-0982741c2534.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ffd6771c-1657-4aea-8bb4-0982741c2534.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/654a3389-fd08-4279-8463-1cf6767bc04b.html" target="element"> Course Section Reserved Seats (SSRRESV) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/9800f949-688d-4b7d-9681-051ce7b17c15.html" target="element">  </a> </td>
+																		<td> <a href="../elements/9800f949-688d-4b7d-9681-051ce7b17c15.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/43963a7a-f6af-4ed1-88a8-7550952a4147.html" target="element"> Course Section Syllabus Long Name (SSRCYLN) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/d92403ed-e5c2-43ce-b9d6-24307a26b494.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d92403ed-e5c2-43ce-b9d6-24307a26b494.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/b75c93ed-dddd-492b-a861-ed52ab1d93d1.html" target="element"> Course Section Level Restrictions (SSRRLVL) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/f36889d1-3585-4a1f-b63e-ed308aac66d5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f36889d1-3585-4a1f-b63e-ed308aac66d5.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/b868c36e-38aa-457b-b918-095877f140f1.html" target="element"> Course Section Registrations Statuses (SSRRSTS) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/5662ef54-5413-42f4-9468-a8b818c66518.html" target="element">  </a> </td>
+																		<td> <a href="../elements/5662ef54-5413-42f4-9468-a8b818c66518.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d9d09c7c-49b4-4568-b2f1-8856976d997d.html" target="element"> Course Sections (SSBSECT) </a> </td>
+																		<td> <a href="../elements/7855e97c-e924-46ea-a8e4-4304cdb0f572.html" target="element"> Course Section Prerequisitons (SSRRTST) </a> </td>
+																	</tr>
+
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelReference -->
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
